@@ -1,0 +1,52 @@
+.backdrop {
+  background-color: #1c1c1c;
+}
+
+.service-container {
+  width: 1500px;
+  height: auto;
+}
+
+.service-child {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.service-text {
+  max-width: 300px;
+}
+
+.font {
+  font-family: "IBM Plex Sans";
+}
+
+.service-img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.banner-btn-wrapper {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.banner-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  font-weight: 700;
+  background-color: #0342a6;
+  transition-duration: 0.3s;
+  &:hover {
+    cursor: pointer;
+    background-color: #61dafb;
+    color: black;
+    transition-duration: 0.3s;
+  }
+}

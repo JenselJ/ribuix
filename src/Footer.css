@@ -1,0 +1,27 @@
+.footer-link:hover {
+  text-decoration: underline;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.icon:hover {
+  cursor: pointer;
+  transform: translate(5px, -5px);
+  transition-duration: 0.5s;
+}
+
+.icon {
+  transition-duration: 0.5s;
+}
+
+@media (max-width: 1024px) {
+  .footer-text-container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 420px) {
+  .footer-text-container {
+    font-size: 11px;
+  }
+}

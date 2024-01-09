@@ -1,0 +1,30 @@
+.short-contact {
+  height: 35px;
+}
+
+.message {
+  height: 200px;
+}
+
+.btn {
+  background-color: #0342a6;
+  color: white;
+  width: 100%;
+  border-radius: 40px;
+  height: 40px;
+  font-size: 20px;
+  font-family: "IBM Plex Sans";
+  border: #0342a6 solid 1px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+  transition-duration: 0.3s;
+}
+
+@media (max-width: 1320px) {
+  .map-wrapper {
+    flex-direction: column;
+  }
+}
